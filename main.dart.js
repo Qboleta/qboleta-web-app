@@ -87314,7 +87314,7 @@ A.a7O.prototype={
 r2(){var s=0,r=A.O(t.j),q,p,o,n
 var $async$r2=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.nR("GET",A.fR("https://prod-api.qboleta.com/api//events/get-all-events",0,null)).iX(0),$async$r2)
+return A.Q(A.nR("GET",A.fR("http://api-dev.qboleta.com:5050/api/events/get-all-events",0,null)).iX(0),$async$r2)
 case 3:p=b
 n=B.aq
 s=4
@@ -87330,7 +87330,7 @@ r1(a){return this.Wr(a)},
 Wr(a){var s=0,r=A.O(t.a),q,p,o,n
 var $async$r1=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.nR("GET",A.fR("https://prod-api.qboleta.com/api//events/get-event-by-id/"+a,0,null)).iX(0),$async$r1)
+return A.Q(A.nR("GET",A.fR("http://api-dev.qboleta.com:5050/api/events/get-event-by-id/"+a,0,null)).iX(0),$async$r1)
 case 3:p=c
 n=B.aq
 s=4
@@ -87347,7 +87347,7 @@ ai9(a){var s=0,r=A.O(t.N),q,p=this,o,n,m,l
 var $async$l7=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:n=t.N
 m=A.an(["Content-Type","application/json","Authorization","Bearer "+p.a.gvy()],n,n)
-l=A.nR("POST",A.fR("https://prod-api.qboleta.com/api//events/create",0,null))
+l=A.nR("POST",A.fR("http://api-dev.qboleta.com:5050/api/events/create",0,null))
 l.sGc(0,B.aq.iA(a))
 l.r.M(0,m)
 s=3
@@ -87515,7 +87515,7 @@ r4(a){return this.Wt(a)},
 Wt(a){var s=0,r=A.O(t.j),q,p,o,n
 var $async$r4=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.nR("GET",A.fR("https://prod-api.qboleta.com/api//tickets/get-tickets/"+a,0,null)).iX(0),$async$r4)
+return A.Q(A.nR("GET",A.fR("http://api-dev.qboleta.com:5050/api/tickets/get-tickets/"+a,0,null)).iX(0),$async$r4)
 case 3:p=c
 n=B.aq
 s=4
@@ -87530,7 +87530,7 @@ return A.N($async$r4,r)},
 iV(){var s=0,r=A.O(t.j),q,p,o,n
 var $async$iV=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.nR("GET",A.fR("https://prod-api.qboleta.com/api//tickets/get-tickets-types",0,null)).iX(0),$async$iV)
+return A.Q(A.nR("GET",A.fR("http://api-dev.qboleta.com:5050/api/tickets/get-tickets-types",0,null)).iX(0),$async$iV)
 case 3:p=b
 n=B.aq
 s=4
@@ -87551,7 +87551,7 @@ k=A.an(["Content-Type","application/json","Authorization","Bearer "+m.gvy()],l,l
 A.hW("holaaa")
 A.hW(a)
 A.hW(m.gvy())
-o=A.nR("POST",A.fR("https://prod-api.qboleta.com/api//tickets/create",0,null))
+o=A.nR("POST",A.fR("http://api-dev.qboleta.com:5050/api/tickets/create",0,null))
 o.sGc(0,B.aq.iA(a))
 o.r.M(0,k)
 s=3
