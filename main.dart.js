@@ -87295,7 +87295,7 @@ case 1:return A.M(q,r)}})
 return A.N($async$B5,r)}}
 A.Om.prototype={
 D(a){var s=A.aHZ(null,!0)
-return new A.Bl($.aNJ(),"splash","Material App",s,!1,null)}}
+return new A.Bl($.aNJ(),"splash","QBOLETA",s,!1,null)}}
 A.dz.prototype={
 fB(){var s=this
 return A.an(["city",s.a,"country",s.b,"created",s.c,"event_date",s.d,"event_image",s.e,"event_type_id",s.f,"id",s.r,"location",s.w,"name",s.x,"state",s.y,"user_creator_id",s.z],t.N,t.z)}}
