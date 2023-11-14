@@ -87570,7 +87570,7 @@ r8(){var s=0,r=A.O(t.a),q,p=this,o,n,m,l,k,j
 var $async$r8=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:m=t.N
 l=A.an(["Authorization","Bearer "+p.a.gvy()],m,m)
-k=A.nR("GET",A.fR("http://dev-api.qboleta.com/api/user/get-user-info",0,null))
+k=A.nR("GET",A.fR("https://prod-api.qboleta.com/api/user/get-user-info",0,null))
 k.r.M(0,l)
 s=3
 return A.Q(k.iX(0),$async$r8)
@@ -87590,7 +87590,7 @@ aow(a,b,c){var s=0,r=A.O(t.N),q,p=this,o,n,m,l
 var $async$B6=A.P(function(d,e){if(d===1)return A.L(e,r)
 while(true)switch(s){case 0:n=t.N
 m=A.an(["Content-Type","application/json","Authorization","Bearer "+p.a.gvy()],n,n)
-l=A.nR("POST",A.fR("http://dev-api.qboleta.com/api/user/create",0,null))
+l=A.nR("POST",A.fR("https://prod-api.qboleta.com/api/user/create",0,null))
 l.sGc(0,B.aq.iA(A.an(["name",b,"phone",c,"country_phone","57","document_number",a],n,n)))
 l.r.M(0,m)
 s=3
